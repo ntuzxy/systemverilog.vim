@@ -10,4 +10,4 @@ All language keywords are defined, as are most builtin method/task/function name
 2) find .gvimrc (or .vimrc) in you home directory and add the follwing script at the end 
 
 ```
-source ~/.vim/syntax/verilog_systemverilog.vim
+au BufNewFile,BufRead *.v,*.sv,*.vh,*.svh so ~/.vim/syntax/verilog_systemverilog.vim
